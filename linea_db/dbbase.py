@@ -264,9 +264,9 @@ if __name__ == "__main__":
         dao = DBBase(database="gavo")
 
         print("Executando query de Teste")
-
         # Instancia sqlalchemy table
-        tbl = dao.get_table('des_ccd')
+        #tbl = dao.get_table('des_ccd')
+        tbl = dao.get_table("coadd_objects", schema="des_dr2")        
         # Select simples com limit
         stm = select(tbl.c).limit(10)
         # # Executa a query e retorna uma lista de dicts
