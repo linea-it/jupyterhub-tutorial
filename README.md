@@ -9,14 +9,39 @@
 
 
 
-#### [PT] Descrição
+#### [PT] Descrição (English version below)
 
-Bem vindo(a) ao LIneA JupyterHub! Este serviço está aberto ao público e oferece acesso a dados e poder de processamento através desta plataforma (JupyterLab), equipada com as principais bibliotecas de astronomia e ciência de dados. A imagem [docker-basic](https://github.com/linea-it/docker-basic) é uma extensão da imagem [_datascience-notebook_](https://github.com/jupyter/docker-stacks) e está disponível no [GitHub](https://github.com/linea-it/docker-basic). No Jupyter Notebook `primeiros_passos.ipynb` você encontrará instruções para acessar os dados e alguns exemplos básicos de visualização e integração com o LIneA Science Server. 
+Bem vindo(a) ao LIneA JupyterHub! Este serviço está aberto ao público e oferece acesso a dados e poder de processamento através do _Jupyter Lab_. Ao entrar na plataforma, todas as bibliotecas da imagem _Docker_ [_datascience-notebook_](https://github.com/jupyter/docker-stacks) estarão automaticamente disponíveis. 
+
+No _notebook_ `jupyterhub-tutorial.ipynb` você encontrará instruções para utilizar a plataforma, instalar bibliotecas adicionais, acessar o banco de dados, visualizar os dados de catálogos e utilizar a integração com o LIneA Science Server para a visualização das imagens astronômicas. Para acessar o notebook, basta abrir um *Terminal* e inserir o comando: 
+
+```shell
+
+$ git clone https://github.com/linea-it/jupyterhub-tutorial.git 
+
+````
+
+Para um tour completo pela ferramenta, acesse o vídeo tutorial [neste link](youtube.com/xxxx). 
 
 
 #### [EN] Description
 
-Welcome to LIneA JupyterHub! This service is open to the public and offers access to data and processing power through this platform (JupyterLab), equipped with the most popular astronomy and data science libraries. The [docker-basic](https://github.com/linea-it/docker-basic) image is an extension of the [_datascience-notebook_](https://github.com/jupyter/docker-stacks) image and is available from [GitHub](https://github.com/linea-it/docker-basic). In the Jupyter Notebook `primeiros_passos.ipynb` you will find instructions (in Portuguese) for accessing the data and some basic examples of visualization and integration with LIneA Science Server.
+
+Welcome to LineA JupyterHub! This service is open to the public and provides access to data and processing power through the _Jupyter Lab_. Upon entering the platform, all libraries from the _Docker_ image [_datascience-notebook_](https://github.com/jupyter/docker-stacks) will be automatically available.
+
+In the _notebook_ `jupyterhub-tutorial.ipynb` you will find instructions for using the platform, installing additional libraries, accessing the database, viewing catalog data, and using the integration with LineA Science Server to view astronomical images. To access the notebook, just open a *Terminal* and enter the command:
+
+```shell
+
+$ git clone https://github.com/linea-it/jupyterhub-tutorial.git 
+
+````
+
+For a full tour of the tool, visit the video tutorial at [this link](youtube.com/xxxx).
+
+
+
+
 
 <br> 
 <br> 
