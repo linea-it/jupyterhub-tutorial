@@ -1,4 +1,4 @@
-<img align="left" src = https://www.linea.gov.br/wp-content/themes/LIneA/imagens/logo-header.png width=120 style="padding: 20px"> <br> 
+<img align="left" src = https://www.linea.org.br/wp-content/themes/LIneA/imagens/logo-header.png width=120 style="padding: 20px"> <br> 
 <img align="left" src = https://jupyter.org/assets/homepage/hublogo.svg width=200 style="padding: 20px">
 <br> 
 <br>
@@ -26,4 +26,4 @@ In the _notebook_ `jupyterhub-tutorial.ipynb` you will find instructions for usi
 
 <br> 
 <br> 
-Contato/contact: <a href="mailto:helpdesk@linea.gov.br">helpdesk@linea.gov.br</a>
+Contato/contact: <a href="mailto:helpdesk@linea.org.br">helpdesk@linea.org.br</a>
