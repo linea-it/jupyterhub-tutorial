@@ -11,7 +11,7 @@ Para contribuir siga os passos:
 3. Abra um pull request para solicitar revisão do notebook e o merge com o branch principal. 
 
 
-Dúvidas? Mande um email para [helpdesk@linea.gov.br](mailto:helpdesk@linea.gov.br)  
+Dúvidas? Mande um email para [helpdesk@linea.org.br](mailto:helpdesk@linea.org.br)  
 
 
 
