@@ -2,7 +2,7 @@
 
 # Users notebooks
 
-Convidamos os usuários do LIneA JupyterHub a adicionarem notebooks com exemplos de casos de uso neste diretório. 
+Convidamos e encorajamos os usuários e usuárias do serviço LIneA JupyterHub a adicionarem notebooks com exemplos de casos de uso neste diretório.  
 
 Para contribuir siga os passos: 
 
@@ -11,7 +11,6 @@ Para contribuir siga os passos:
 3. Abra um pull request para solicitar revisão do notebook e o merge com o branch principal. 
 
 
-Dúvidas? Mande um email para [helpdesk@linea.gov.br](mailto:helpdesk@linea.gov.br)  
-
+Dúvidas? Mande um email para [helpdesk@linea.org.br](mailto:helpdesk@linea.org.br)  
 
 
