@@ -4,3 +4,5 @@ env/
 __pycache__/*
 *.ipynb_checkpoints*
 linea_db/.ipynb_checkpoints/*
+*.csv
+users-notebooks/geopandas-des-footprint/*
