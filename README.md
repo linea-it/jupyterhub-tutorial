@@ -1,4 +1,4 @@
-<img align="left" src = https://www.linea.org.br/wp-content/themes/LIneA/imagens/logo-header.png width=120 style="padding: 20px"> <br> 
+<img align="left" src = images/linea.png width=120 style="padding: 20px"> <br> 
 <img align="left" src = https://jupyter.org/assets/homepage/hublogo.svg width=200 style="padding: 20px">
 <br> 
 <br>
