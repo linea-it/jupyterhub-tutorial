@@ -24,6 +24,9 @@ No diretório `users-notebooks` você encontrará exemplos de aplicações compa
 
 No diretório `minicurso` você encontrará o material que foi utilizado nas primeiras edições em 2021 e 2023. Desde então, os cursos oferecidos pelo LIneA evoluiram, cobrindo temas variados como git, github, gitflow, Python, banco de dados, metodologias de desenvolvimento de software científico e muito mais. Confira o material didático e as gravações das aulas na plataforma [Google Classroom](https://classroom.google.com/c/NDkzMTA0MzEyODA1?cjc=kl5jjnd) (será necessário ter uma conta _Gmail_ para acessar).   
 
+#### Site de documentação para usuários 
+
+A documentação completa de todas as plataformas e ferramentas disponibilizadas pelo LIneA está disponível em: [https://docs.linea.org.br/](https://docs.linea.org.br/) 
 
 
 #### [EN] Description
@@ -41,6 +44,10 @@ In the `users-notebooks` directory you will find use cases shared by the platfor
 #### Minicursos 
 
 In the `minicurso` directory you will find the material (in Portuguese) used in the first editions in 2021 and 2023. Since then, the courses offered by LIneA have evolved, covering varied topics such as git, github, gitflow, Python, databases, scientific software development methodologies and much more. Check out the teaching material and class recordings on the  [Google Classroom](https://classroom.google.com/c/NDkzMTA0MzEyODA1?cjc=kl5jjnd) platform (Gmail account required).
+
+#### User documentation site
+
+Complete documentation for all platforms and tools provided by LIneA is available at: [https://docs.linea.org.br/](https://docs.linea.org.br/)
 
 
 <br> 
