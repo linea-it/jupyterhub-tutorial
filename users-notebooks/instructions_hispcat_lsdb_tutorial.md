@@ -47,9 +47,9 @@ pip install dblinea
 python -m ipykernel install --user --name=lsdb_env
 ```
 
-7) Instalar a extensão "jupyter-bokeh" no menu de extensões do Jupyter Lab (barra lateral direita, símbolo de quebra-cabeças) e dar um refresh na página.
+7) Instalar a extensão "jupyter-bokeh" no menu de extensões do Jupyter Lab (barra lateral esquerda, símbolo de quebra-cabeças) e dar um refresh na página.
 
-8) Instalar a extensão "pyviz-comms" no menu de extensões do Jupyter Lab (barra lateral direita, símbolo de quebra-cabeças) e dar um refresh na página.
+8) Instalar a extensão "pyviz-comms" no menu de extensões do Jupyter Lab (barra lateral esquerda, símbolo de quebra-cabeças) e dar um refresh na página.
 
 9) Rodar o notebook.
 
