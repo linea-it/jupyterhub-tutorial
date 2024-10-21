@@ -1,4 +1,5 @@
-Instruções para criar o ambiente virtual para rodar o notebook de tutorial do HiPSCat / LSDB.
+Instruções para criar o ambiente virtual para rodar o notebook de tutorial do HATS / LSDB.
+Última atualização: 21 de outubro de 2024.
 
 1) Limpar os ambientes de forma geral.
 ```bash
@@ -31,14 +32,15 @@ source activate lsdb_env
 
 4) Instalar pacotes necessários com conda.
 ```bash
-conda install -c conda-forge pathlib astropy bokeh holoviews geoviews cartopy matplotlib pandas dask distributed ipykernel lsdb pyogrio pyviz_comms jupyter_bokeh
+conda install -c conda-forge pathlib astropy bokeh holoviews geoviews cartopy matplotlib pandas dask distributed ipykernel pyogrio pyviz_comms jupyter_bokeh
 ```
 Obs.: Esse passo demora bastante! Leva cerca de 10 a 20 minutos para o conda resolver o ambiente.
 
 5) Instalar pacotes necessários com pip.
 ```bash
-pip install hipscat
-pip install hipscat-import
+pip install git+https://github.com/astronomy-commons/hats.git@main
+pip install git+https://github.com/astronomy-commons/hats-import.git@main
+pip install git+https://github.com/astronomy-commons/lsdb.git@main
 pip install dblinea
 ```
 
