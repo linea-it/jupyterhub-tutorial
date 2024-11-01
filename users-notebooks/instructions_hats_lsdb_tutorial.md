@@ -1,5 +1,5 @@
-Instruções para criar o ambiente virtual para rodar o notebook de tutorial do HATS / LSDB.
-Última atualização: 21 de outubro de 2024.
+Instruções para criar o ambiente virtual para rodar o notebook de tutorial do HATS / LSDB no Jupyter sobre Kubernetes do LIneA.
+Última atualização: 01 de novembro de 2024.
 
 1) Limpar os ambientes de forma geral.
 ```bash
@@ -20,7 +20,7 @@ conda config --append channels conda-forge
 
 3) Criar o ambiente e ativar.
 ```bash
-conda create -p $HOME/.conda/envs/lsdb_env
+conda create -p $HOME/.conda/envs/lsdb_env python=3.12.7
 ```
 ```bash
 conda activate lsdb_env 
@@ -32,15 +32,16 @@ source activate lsdb_env
 
 4) Instalar pacotes necessários com conda.
 ```bash
-conda install -c conda-forge pathlib astropy bokeh holoviews geoviews cartopy matplotlib pandas dask distributed ipykernel pyogrio pyviz_comms jupyter_bokeh
+conda install -c conda-forge --override-channels \
+    pathlib astropy bokeh holoviews geoviews cartopy \
+    matplotlib pandas dask distributed ipykernel pyogrio \
+    pyviz_comms jupyter_bokeh \
+    hats=0.4.2 hats-import=0.4.1 lsdb=0.4.1
 ```
 Obs.: Esse passo demora bastante! Leva cerca de 10 a 20 minutos para o conda resolver o ambiente.
 
 5) Instalar pacotes necessários com pip.
 ```bash
-pip install git+https://github.com/astronomy-commons/hats.git@main
-pip install git+https://github.com/astronomy-commons/hats-import.git@main
-pip install git+https://github.com/astronomy-commons/lsdb.git@main
 pip install dblinea
 ```
 
