@@ -1,0 +1,36 @@
+name: astro
+channels:
+  - conda-forge
+dependencies:
+  - python
+
+  # --- Data Science ---
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-image
+  - scikit-learn
+  - dask
+
+  # --- Astronomy ---
+  - astropy
+  - astroquery
+  - healpy
+  - photutils
+  - regions
+  - reproject
+  - hats
+  - hats-import
+  - lsdb
+  - pyvo
+
+  # --- Interactive Visualization ---
+  - bokeh
+  - holoviews
+  - hvplot
+  - datashader
+  
+  # --- Jupyter Environment ---
+  - ipykernel
