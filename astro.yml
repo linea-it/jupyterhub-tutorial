@@ -23,7 +23,7 @@ dependencies:
   - reproject
   - hats
   - hats-import
-  - lsdb
+  - lsdb 
   - pyvo
 
   # --- Interactive Visualization ---
