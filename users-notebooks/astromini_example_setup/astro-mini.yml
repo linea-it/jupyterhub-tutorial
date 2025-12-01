@@ -1,0 +1,12 @@
+name: astro-mini
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - astropy
+  - matplotlib
+  - pyvo
+  - lsdb
+  - ipykernel
