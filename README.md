@@ -14,7 +14,7 @@
 
 Bem vindo(a) ao LIneA JupyterHub! Este serviço está aberto ao público e oferece acesso a dados e poder de processamento através do _JupyterLab_. Ao entrar na plataforma, todas as bibliotecas da imagem _Docker_ [_datascience-notebook_](https://github.com/jupyter/docker-stacks) estarão automaticamente disponíveis. 
 
-Nos _notebooks_ tutoriais você encontrará instruções para utilizar a plataforma, instalar bibliotecas adicionais, acessar o banco de dados, visualizar os dados de catálogos e utilizar a integração com o LIneA Science Server para a visualização das imagens astronômicas. 
+Nos _notebooks_ tutoriais você encontrará instruções para utilizar a plataforma, instalar bibliotecas adicionais e acessar o banco de dados.
 
 #### Users notebooks
 
@@ -34,7 +34,7 @@ A documentação completa de todas as plataformas e ferramentas disponibilizadas
 
 Welcome to LIneA JupyterHub! This service is open to the public and provides data and processing resources access through the _JupyterLab_. Upon entering the platform, all libraries from the _Docker_ image [_datascience-notebook_](https://github.com/jupyter/docker-stacks) will be automatically available.
 
-In the _notebook tutorials_ you will find instructions for using the platform, installing additional libraries, accessing the database, viewing catalog data, and using the integration with LineA Science Server to view astronomical images.
+In the _notebook tutorials_ you will find instructions for using the platform, installing additional libraries, and accessing the database.
 
 #### Users notebooks
 
