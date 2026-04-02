@@ -145,7 +145,6 @@ Acceda al menú **Tutorials** en la barra superior de Jupyter Lab para encontrar
 * usar el asistente de IA para escribir y analizar código
 
 
-
 ¡Buen trabajo! 🚀  
 
 
