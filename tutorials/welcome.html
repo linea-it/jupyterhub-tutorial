@@ -148,11 +148,37 @@
     </section>
 
     <div class="clear"></div>
+    
+    <!-- Language Navigation Buttons -->
+    <div style="position: sticky; top: 0; background-color: #ffffff; padding: 10px 0; z-index: 1000; border-bottom: 1px solid #ddd;">
+      <div style="text-align: left;">
+        <button onclick="scrollToSection('pt')" style="margin: 5px; padding: 8px 16px; font-size: 14px; cursor: pointer;">
+          Português
+        </button>
+        <button onclick="scrollToSection('en')" style="margin: 5px; padding: 8px 16px; font-size: 14px; cursor: pointer;">
+          English
+        </button>
+        <button onclick="scrollToSection('es')" style="margin: 5px; padding: 8px 16px; font-size: 14px; cursor: pointer;">
+          Español
+        </button>
+      </div>
+    </div>
+    
+    <script>
+      function scrollToSection(id) {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+        }
+      }
+    </script>
 
-    <h1>Bem-vindo ao LIneA JupyterHub &#128075;</h1>
-
-    <p class="lang-note">(ENGLISH BELOW)/(ESPA&#209;OL ABAJO)</p>
-
+      
+    <h1 id="pt">Bem-vindo ao LIneA JupyterHub &#128075;</h1>
+      
     <p>O JupyterHub &#233; um ambiente de desenvolvimento multiusu&#225;rio baseado em <em>Jupyter Notebooks</em>. Aqui, voc&#234; pode programar, analisar dados e visualizar resultados diretamente no navegador, sem precisar instalar ou configurar nada no seu computador.</p>
 
     <p>Como parte da LIneA Science Platform, ele &#233; ideal para:</p>
@@ -169,12 +195,28 @@
 
     <h2>O que est&#225; dispon&#237;vel</h2>
 
-    <p>O JupyterHub est&#225; dispon&#237;vel em tr&#234;s op&#231;&#245;es (imagens Docker), que variam de acordo com as bibliotecas e extens&#245;es previamente instaladas:</p>
-    <ul>
-      <li><strong>DataScience</strong> &#8211; o stack <a href="https://jupyter-docker-stacks.readthedocs.io/" target="_blank" rel="noopener noreferrer">Jupyter Data Science Notebook</a>, incluindo bibliotecas populares de <em>data science</em> como Pandas, NumPy, Matplotlib, SciPy e Scikit-learn.</li>
-      <li><strong>Astronomy</strong> &#8211; o stack gen&#233;rico de astronomia, que inclui as principais bibliotecas de <em>data science</em> mais as bibliotecas mais utilizadas na &#225;rea, como Astropy, Astroquery, Healpy, Photutils, PyVO, Dustmaps, LSDB, AstroML, entre outras.</li>
-      <li><strong>SolarSystem</strong> &#8211; o stack espec&#237;fico para a &#225;rea de estudos do Sistema Solar, que inclui as principais bibliotecas das imagens <strong>DataScience</strong> e <strong>Astronomy</strong> mais as bibliotecas mais utilizadas na &#225;rea, como sbpy, spiceypy, rebound, sora-astro, reboundx, entre outras.</li>
-    </ul>
+<p>
+  O JupyterHub está disponível em quatro opções (imagens Docker), que variam de acordo com as bibliotecas e extensões previamente instaladas:
+</p>
+
+<ul>
+  <li>
+    <strong>DataScience</strong> – o stack
+    <a href="https://jupyter-docker-stacks.readthedocs.io/" target="_blank" rel="noopener noreferrer">
+      Jupyter Data Science Notebook
+    </a>,
+    incluindo bibliotecas populares de <em>data science</em> como Pandas, NumPy, Matplotlib, SciPy e Scikit-learn.
+  </li>
+  <li>
+    <strong>Astronomy</strong> – o stack genérico de astronomia, que inclui as principais bibliotecas de <em>data science</em> mais as bibliotecas mais utilizadas na área, como Astropy, Astroquery, Healpy, Photutils, PyVO, Dustmaps, LSDB, AstroML, entre outras.
+  </li>
+  <li>
+    <strong>SolarSystem</strong> – o stack específico para a área de estudos do Sistema Solar, que inclui as principais bibliotecas das imagens <strong>DataScience</strong> e <strong>Astronomy</strong> mais as bibliotecas mais utilizadas na área, como sbpy, spiceypy, rebound, sora-astro, reboundx, entre outras.
+  </li>
+  <li>
+    <strong>IRAF Data Reduction</strong> – uma imagem customizada para auxiliar tarefas que dependem de redução e manipulação de imagens astronômicas com ferramentas tradicionais como IRAF e DS9 (ferramentas mais modernas como o Astropy CCDProc, Photutils e Reproject estão disponíveis na imagem <strong>Astronomy</strong>).
+  </li>
+</ul>
 
     <p>Para acessar a lista completa de bibliotecas e suas respectivas vers&#245;es dispon&#237;veis por padr&#227;o, abra um Terminal e execute:</p>
 
@@ -188,19 +230,21 @@
 
     <h2>Tutorial Notebooks</h2>
 
-    <p>Acesse o menu <strong>Tutorials</strong> na barra superior do Jupyter Lab para encontrar notebooks com tutoriais sobre como:</p>
-    <ul>
-      <li>utilizar um Jupyter Notebook (caso seja iniciante)</li>
-      <li>acessar os dados hospedados no LIneA diretamente a partir de um notebook</li>
-      <li>customizar o seu ambiente</li>
-      <li>utilizar o assistente de IA para escrever e analisar c&#243;digos</li>
-    </ul>
+<p>
+  &#9757;&#65039; Acesse <code>Tutorials</code> na Barra de Menus do JupyterLab e encontre modelos de notebooks contendo exemplos de uso para aprender como:
+</p>
+
+<ul>
+  <li>Utilizar um Jupyter Notebook (caso seja iniciante)</li>
+  <li>Customizar o seu ambiente com bibliotecas e versões específicas</li>
+  <li>Acessar os dados hospedados no LIneA diretamente a partir de um notebook</li>
+</ul>
 
     <p class="closing">Bom trabalho! &#128640;</p>
 
     <hr>
 
-    <h1>Welcome to LIneA JupyterHub &#128075;</h1>
+    <h1 id="en">Welcome to LIneA JupyterHub &#128075;</h1>
 
     <p>JupyterHub is a multi-user development environment based on <em>Jupyter Notebooks</em>. Here, you can write code, analyze data, and visualize results directly in your browser&#8212;no installation or configuration required on your local machine.</p>
 
@@ -218,12 +262,28 @@
 
     <h2>What&#8217;s Available</h2>
 
-    <p>JupyterHub is available in three options (Docker images), which differ in the pre-installed libraries and extensions:</p>
-    <ul>
-      <li><strong>DataScience</strong> &#8211; the <a href="https://jupyter-docker-stacks.readthedocs.io/" target="_blank" rel="noopener noreferrer">Jupyter Data Science Notebook</a> stack, including popular <em>data science</em> libraries such as Pandas, NumPy, Matplotlib, SciPy, and Scikit-learn.</li>
-      <li><strong>Astronomy</strong> &#8211; the generic astronomy stack, which includes the main <em>data science</em> libraries along with widely used astronomy packages such as Astropy, Astroquery, Healpy, Photutils, PyVO, Dustmaps, LSDB, AstroML, among others.</li>
-      <li><strong>SolarSystem</strong> &#8211; the specific stack for the area of Solar System studies, which includes the main libraries of <strong>DataScience</strong> and <strong>Astronomy</strong> images plus the most used libraries in the field, such as sbpy, spiceypy, rebound, sora-astro, reboundx, among others.</li>
-    </ul>
+<p>
+  JupyterHub is available in four options (Docker images), which differ in the pre-installed libraries and extensions:
+</p>
+
+<ul>
+  <li>
+    <strong>DataScience</strong> – the
+    <a href="https://jupyter-docker-stacks.readthedocs.io/" target="_blank" rel="noopener noreferrer">
+      Jupyter Data Science Notebook
+    </a>
+    stack, including popular <em>data science</em> libraries such as Pandas, NumPy, Matplotlib, SciPy, and Scikit-learn.
+  </li>
+  <li>
+    <strong>Astronomy</strong> – the generic astronomy stack, which includes the main <em>data science</em> libraries as well as the most widely used libraries in the field, such as Astropy, Astroquery, Healpy, Photutils, PyVO, Dustmaps, LSDB, AstroML, among others.
+  </li>
+  <li>
+    <strong>SolarSystem</strong> – the stack specifically designed for Solar System studies, which includes the main libraries from the <strong>DataScience</strong> and <strong>Astronomy</strong> images, along with widely used domain-specific libraries such as sbpy, spiceypy, rebound, sora-astro, reboundx, among others.
+  </li>
+  <li>
+    <strong>IRAF Data Reduction</strong> – a customized image designed to support tasks that depend on the reduction and manipulation of astronomical images using traditional tools such as IRAF and DS9 (more modern tools such as Astropy CCDProc, Photutils, and Reproject are available in the <strong>Astronomy</strong> image).
+  </li>
+</ul>
 
     <p>To view the full list of available libraries and their default versions, open a Terminal and run:</p>
 
@@ -237,20 +297,22 @@
 
     <h2>Tutorial Notebooks</h2>
 
-    <p>Access the <strong>Tutorials</strong> menu in the Jupyter Lab top bar to find notebooks with tutorials on how to:</p>
-    <ul>
-      <li>use a Jupyter Notebook (if you are new to it)</li>
-      <li>access data hosted at LIneA directly from a notebook</li>
-      <li>customize your environment</li>
-      <li>use the AI assistant to write and analyze code</li>
-    </ul>
+<p>
+  &#9757;&#65039; Access <code>Tutorials</code> in the JupyterLab Menu Bar and find notebook templates containing usage examples to learn how to:
+</p>
+
+<ul>
+  <li>Use a Jupyter Notebook (if you are a beginner)</li>
+  <li>Customize your environment with specific libraries and versions</li>
+  <li>Access data hosted at LIneA directly from a notebook</li>
+</ul>
 
     <p class="closing">Happy coding! &#128640;</p>
 
     <hr>
 
-    <h1>Bienvenido a LIneA JupyterHub &#128075;</h1>
-
+    <h1 id="es">Bienvenido a LIneA JupyterHub &#128075;</h1>
+      
     <p>JupyterHub es un entorno de desarrollo multiusuario basado en <em>Jupyter Notebooks</em>. Aqu&#237; puedes programar, analizar datos y visualizar resultados directamente desde tu navegador, sin necesidad de instalar ni configurar nada en tu computadora.</p>
 
     <p>Como parte de la LIneA Science Platform, es ideal para:</p>
@@ -267,12 +329,28 @@
 
     <h2>Qu&#233; est&#225; disponible</h2>
 
-    <p>JupyterHub est&#225; disponible en tres opciones (im&#225;genes Docker), que difieren seg&#250;n las bibliotecas y extensiones preinstaladas:</p>
-    <ul>
-      <li><strong>DataScience</strong> &#8211; el stack <a href="https://jupyter-docker-stacks.readthedocs.io/" target="_blank" rel="noopener noreferrer">Jupyter Data Science Notebook</a>, que incluye bibliotecas populares de <em>data science</em> como Pandas, NumPy, Matplotlib, SciPy y Scikit-learn.</li>
-      <li><strong>Astronomy</strong> &#8211; el stack gen&#233;rico de bibliotecas de astronom&#237;a, que incluye las principales bibliotecas de ciencia de datos, adem&#225;s de las m&#225;s utilizadas en el campo, como Astropy, Astroquery, Healpy, Photutils, PyVO, Dustmaps, LSDB, AstroML, entre otras.</li>
-      <li><strong>Sistema Solar</strong>: el conjunto espec&#237;fico para el &#225;rea de estudios del Sistema Solar, que incluye las principales bibliotecas de im&#225;genes <strong>Ciencia de Datos</strong> y <strong>Astronom&#237;a</strong>, adem&#225;s de las m&#225;s utilizadas en el campo, como sbpy, spiceypy, rebound, sora-astro, reboundx, entre otras.</li>
-    </ul>
+<p>
+  bibliotecas y extensiones preinstaladas:
+</p>
+
+<ul>
+  <li>
+    <strong>DataScience</strong> – la pila
+    <a href="https://jupyter-docker-stacks.readthedocs.io/" target="_blank" rel="noopener noreferrer">
+      Jupyter Data Science Notebook
+    </a>,
+    que incluye bibliotecas populares de <em>ciencia de datos</em> como Pandas, NumPy, Matplotlib, SciPy y Scikit-learn.
+  </li>
+  <li>
+    <strong>Astronomy</strong> – la pila genérica de astronomía, que incluye las principales bibliotecas de <em>ciencia de datos</em>, así como las más utilizadas en el área, como Astropy, Astroquery, Healpy, Photutils, PyVO, Dustmaps, LSDB, AstroML, entre otras.
+  </li>
+  <li>
+    <strong>SolarSystem</strong> – la pila específica para el área de estudios del Sistema Solar, que incluye las principales bibliotecas de las imágenes <strong>DataScience</strong> y <strong>Astronomy</strong>, además de las más utilizadas en el área, como sbpy, spiceypy, rebound, sora-astro, reboundx, entre otras.
+  </li>
+  <li>
+    <strong>IRAF Data Reduction</strong> – una imagen personalizada diseñada para apoyar tareas que dependen de la reducción y manipulación de imágenes astronómicas con herramientas tradicionales como IRAF y DS9 (herramientas más modernas como Astropy CCDProc, Photutils y Reproject están disponibles en la imagen <strong>Astronomy</strong>).
+  </li>
+</ul>
 
     <p>Para ver la lista completa de bibliotecas disponibles y sus versiones por defecto, abre una Terminal y ejecuta:</p>
 
@@ -286,13 +364,15 @@
 
     <h2>Tutorial Notebooks</h2>
 
-    <p>Acceda al men&#250; <strong>Tutorials</strong> en la barra superior de Jupyter Lab para encontrar notebooks con tutoriales sobre c&#243;mo:</p>
-    <ul>
-      <li>usar un Jupyter notebook (si es la primera vez que lo usa)</li>
-      <li>acceder a los datos alojados en LIneA directamente desde un notebook</li>
-      <li>personalizar su entorno</li>
-      <li>usar el asistente de IA para escribir y analizar c&#243;digo</li>
-    </ul>
+<p>
+  &#9757;&#65039; Acceda a <code>Tutorials</code> en la barra de menús de JupyterLab y encuentre plantillas de notebooks que contienen ejemplos de uso para aprender cómo:
+</p>
+
+<ul>
+  <li>Utilizar un Jupyter Notebook (si es principiante)</li>
+  <li>Personalizar su entorno con bibliotecas y versiones específicas</li>
+  <li>Acceder a los datos alojados en LIneA directamente desde un notebook</li>
+</ul>
 
     <p class="closing">&#161;Buen trabajo! &#128640;</p>
   </main>
