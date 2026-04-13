@@ -96,7 +96,7 @@ If you need more computational power or want to work with large volumes of data 
 
 ## What’s Available
 
-JupyterHub is available in two options (Docker images), which differ in the pre-installed libraries and extensions:  
+JupyterHub is available in four options (Docker images), which differ in the pre-installed libraries and extensions:  
 
 * **DataScience** – the [Jupyter Data Science Notebook](https://jupyter-docker-stacks.readthedocs.io/) stack, including popular *data science* libraries such as Pandas, NumPy, Matplotlib, SciPy, and Scikit-learn.  
 * **Astronomy** – the generic astronomy stack, which includes the main *data science* libraries as well as the most widely used libraries in the field, such as Astropy, Astroquery, Healpy, Photutils, PyVO, Dustmaps, LSDB, AstroML, among others.  
@@ -141,7 +141,7 @@ Si necesitas más capacidad de cómputo o trabajar con grandes volúmenes de dat
 
 ## Qué está disponible
 
-JupyterHub está disponible en dos opciones (imágenes Docker), que difieren según las bibliotecas y extensiones preinstaladas:  
+JupyterHub está disponible en cuatro opciones (imágenes Docker), que difieren según las bibliotecas y extensiones preinstaladas:  
 
 * **DataScience** – la pila [Jupyter Data Science Notebook](https://jupyter-docker-stacks.readthedocs.io/), que incluye bibliotecas populares de *ciencia de datos* como Pandas, NumPy, Matplotlib, SciPy y Scikit-learn.  
 * **Astronomy** – la pila genérica de astronomía, que incluye las principales bibliotecas de *ciencia de datos*, así como las más utilizadas en el área, como Astropy, Astroquery, Healpy, Photutils, PyVO, Dustmaps, LSDB, AstroML, entre otras.  
